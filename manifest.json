@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Enable Submit Button",
+  "version": "1.0",
+  "description": "Toggle to auto-enable ChatGPT submit button",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["*://*.chatgpt.com/*", "*://chat.openai.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.chatgpt.com/*", "*://chat.openai.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Enable Submit Button"
+  }
+}
