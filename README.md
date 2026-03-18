@@ -1,3 +1,10 @@
+- [Enable Submit Button - Chrome/Brave Extension](#enable-submit-button---chromebrave-extension)
+  - [✨ Features](#-features)
+  - [Screenshots](#screenshots)
+  - [🚀 Installation](#-installation)
+    - [From Source (Developer Mode)](#from-source-developer-mode)
+  - [From Release (Manual Download)](#from-release-manual-download)
+
 # Enable Submit Button - Chrome/Brave Extension
 
 A lightweight browser extension that automatically enables the submit button on ChatGPT when it's disabled. Features a simple toggle to turn the auto-enable feature on/off.
@@ -5,10 +12,15 @@ A lightweight browser extension that automatically enables the submit button on 
 ## ✨ Features
 
 - 🔄 Auto-enable - Automatically enables disabled submit buttons
-- 🎚️ Simple Toggle - One-click enable/disable from toolbar
 - 💾 Persistent Settings - Remembers your preference across sessions
 - 🎯 ChatGPT Only - Only activates on ChatGPT domains
 - ⚡ Lightweight - Minimal code, no bloat
+
+## Screenshots
+
+|                  Before                  |                  After                  |
+| :--------------------------------------: | :-------------------------------------: |
+| ![Enabled](./assets/before_disabled.png) | ![Disabled](./assets/after_enabled.png) |
 
 ## 🚀 Installation
 
